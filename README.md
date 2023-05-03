@@ -11,7 +11,7 @@ Linux
    conda activate rcnn
    ```
 
-2. Install PyTorch following [official instructions](https://pytorch.org/get-started/locally/), e.g.
+2. Install PyTorch following [official instructions](https://pytorch.org/get-started/locally/), e.g.<br>
    On CUDA 11.6 platforms:
    ```
    conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
