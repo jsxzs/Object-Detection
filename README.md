@@ -43,3 +43,42 @@ Linux
    bash modules.sh
    cd ../
    ```
+
+## Test Faster RCNN
+1. Test bbox AP and inference speed.
+   ```
+   bash scripts/faster_rcnn_test.sh
+   ```
+   bbox AP:
+   ![](resources/faster_rcnn_test.png)
+
+   inference speed:
+   ![](resources/faster_rcnn_fps.png)
+
+2. Visualize.
+   ```
+   bash scripts/faster_rcnn_vis.sh
+   ```
+   ![](vis_examples/faster_rcnn/000000001000.jpg)
+   ![](vis_examples/faster_rcnn/000000026941.jpg)
+
+## Test Mask RCNN
+1. Test bbox AP, segm AP and inference speed.
+   ```
+   bash scripts/mask_rcnn_test.sh
+   ```
+   bbox AP:
+   ![](resources/mask_rcnn_bbox.png)
+
+   mask AP:
+   ![](resources/mask_rcnn_segm.png)
+
+   inference speed:
+   ![](resources/mask_rcnn_fps.png)
+
+2. Visualize.
+   ```
+   bash scripts/mask_rcnn_vis.sh
+   ```
+   ![](vis_examples/mask_rcnn/000000001000.jpg)
+   ![](vis_examples/mask_rcnn/000000026941.jpg)
