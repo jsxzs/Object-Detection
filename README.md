@@ -50,9 +50,11 @@ Linux
    bash scripts/faster_rcnn_test.sh
    ```
    bbox AP:
+
    ![](resources/faster_rcnn_test.png)
 
    inference speed:
+
    ![](resources/faster_rcnn_fps.png)
 
 2. Visualize.
@@ -68,12 +70,15 @@ Linux
    bash scripts/mask_rcnn_test.sh
    ```
    bbox AP:
+
    ![](resources/mask_rcnn_bbox.png)
 
    mask AP:
+
    ![](resources/mask_rcnn_segm.png)
 
    inference speed:
+   
    ![](resources/mask_rcnn_fps.png)
 
 2. Visualize.
